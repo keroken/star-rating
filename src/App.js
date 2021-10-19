@@ -1,9 +1,10 @@
 import React from 'react';
-import StarRating from './StarRating'
+import ColorList from './components/ColorList';
+import colors from './color-data.json';
 
 function App() {
   return (
-    <StarRating style={{ backgroundColor: "lightblue" }} />
+    <ColorList colors={colors} />
   );
 }
 
